@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamza AMDOUNI - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/917fbff041.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo1.PNG" class="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Software Engineering Student <br> Full Stack Developer</p>
+          <h1>Hi, I'm <span>Hamza</span><br />From Tunisia</h1>
+        </div>
+      </div>
+    </div>
+    <!---------about------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Enthousiaste et créatif, je suis actuellement étudiant en génie
+              logiciel en dernière année de cycle d'ingénieur, à la recherche
+              d'un stage de fin d'études d'une durée de 6 mois. Fort de
+              compétences polyvalentes en développement web, je suis
+              immédiatement disponible pour contribuer à des projets innovants
+              et enrichissants.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experiences
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Programming Languages</span><br />
+                  Java, Python, C, C#, JavaScript, PHP
+                </li>
+                <li>
+                  <span> Frameworks</span><br />
+                  Symfony, JavaFX, SpringBoot, Angular, .NET Core, ReactJs,
+                  VueJs
+                </li>
+                <li><span>Web Technologies</span><br />HTML, CSS, jQuery</li>
+                <li>
+                  <span>Databases</span><br />MySQL, SQL Server, Oracle, MongoDB
+                </li>
+                <li><span> Integration Tools</span><br />GitHub, GitLab</li>
+                <li>
+                  <span> DevOps</span><br />Jenkins, Docker, Docker Compose,
+                  Prometheus, Grafana, Git, Nexus, Virtual Box, Vagrant, Sonar
+                </li>
+                <li><span> Methodologies</span><br />SCRUM</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Full Stack Developer | NEXITS </span><br />Achieved
+                  successful backend design for the "Gameholic" e-commerce site,
+                  programmed web services using Express.js and MongoDB, designed
+                  interactive frontend interfaces with React.js; skilled in
+                  MongoDB, Express.js, Vue.js, Node.js, Cloudinary, and
+                  proficient in Figma, Jira, and Google Workspace.
+                </li>
+                <li>
+                  <span>Full Stack Developer | North Events </span
+                  ><br />Conducted thorough analysis and correction of existing
+                  code, developed complex APIs using Express.js and MongoDB,
+                  designed interactive frontend interfaces with Vue.js, and
+                  employed Cloudinary for effective multimedia resource
+                  management; proficient in MongoDB, Express.js, React.js, and
+                  Node.js.t
+                </li>
+                <li>
+                  <span> DevOps Project | ESPRIT </span><br />Automated source
+                  code building and testing through Jenkins, containerized
+                  applications with Docker and Docker Compose, and ensured
+                  continuous monitoring of application health using Prometheus
+                  and Grafana; skilled in Jenkins, Docker, Docker Compose,
+                  Prometheus, Grafana, Nexus, and Sonar.
+                </li>
+                <li>
+                  <span> COCO-MARKET | ESPRIT </span><br />Developed a
+                  responsive user interface with SCSS and JavaScript,
+                  implemented a robust backend architecture using Spring for
+                  Java, optimized MySQL database management, and utilized
+                  TypeScript (Angular) for frontend development; proficient in
+                  MySQL and version control with GitHub.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Software Engineering</span> <br />ESPRIT - Private
+                  School of Engineering and Technology <br />Since Sept. 2021
+                </li>
+                <li>
+                  <span>
+                    Applied License in Electrical Engineering (Automation and
+                    Industrial Computing)</span
+                  >
+                  <br />ISET - Higher Institute of Technological Studies
+                  <br />Sept. 2016 Jun. 2019
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------services------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-sharp fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>Build responsive and dynamic websites using HTML, CSS, and JavaScript.
+              <br>Implement front-end frameworks like React, Angular, or Vue.js for a better user experience.
+              <br>Develop custom, user-friendly interfaces.</p>
+            <a href="#">LEARN MORE</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Software Development</h2>
+            <p>Showcase projects where you have built tailor-made solutions to meet specific client needs.</p>
+            <a href="#">LEARN MORE</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-shop"></i>
+            <h2>E-commerce Development</h2>
+            <p>Develop online stores using platforms like Shopify, WooCommerce, or custom solutions with payment gateway integrations.</p>
+            <a href="#">LEARN MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------portfolio----------- -->
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
